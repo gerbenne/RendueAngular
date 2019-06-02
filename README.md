@@ -16,7 +16,7 @@ Lancer le server dans un premier terminal avec la commande server.js dans le dos
 
 Lancer l'application grâce à un nouveau terminal dans le dossier ANGpwa avec la commande npm start
 
-# #Cinquième Etape
+## Cinquième Etape
 
 Enjoy :)
 
