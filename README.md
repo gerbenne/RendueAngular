@@ -1,22 +1,22 @@
 # TapTapGame
 
-##Première Etape
+## Première Etape
 
 Lancer Mongo avec mongo.exe
 
-##Deuxième Etape
+## Deuxième Etape
 
 Faire un npm install dans les dossiers TapTapGame et ANGpwa
 
-##Troisième Etape
+## Troisième Etape
 
 Lancer le server dans un premier terminal avec la commande server.js dans le dossier TapTapGame
 
-##Quatrième Etape
+## Quatrième Etape
 
 Lancer l'application grâce à un nouveau terminal dans le dossier ANGpwa avec la commande npm start
 
-##Cinquième Etape
+# #Cinquième Etape
 
 Enjoy :)
 
