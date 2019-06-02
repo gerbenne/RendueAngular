@@ -1,0 +1,15 @@
+<div class="container-header" *ngIf="token===null">
+  <h1 style="font-weight: bold">WELCOME ON</h1>
+  <h1 style="font-weight: bold; color:purple">TAPBOARD</h1>
+  <h5>LOGIN OR REGISTER TO START TAPPING</h5>
+</div>
+
+<div class="container-header" *ngIf="token!==null">
+  <h1 style="font-weight: bold">HELLO {{first_name}}</h1>
+  <h5>YOU HAVE 10 SECONDES TO TAP. READY? STEADY? TAP!</h5>
+  <div style="margin-top: 10px">
+    <button (click)="score()" class="btn btn-purple" *ngIf="where==='/me'">SCORE</button>
+    <button (click)="play()" class="btn btn-purple" *ngIf="where==='/tap'">PLAY</button>
+    <button (click)="logout()" class="btn btn-purple" style="margin-left: 15px;">LOGOUT</button>
+  </div>
+</div>

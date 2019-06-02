@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align:center; 
+  background-color: #f9f9fa;
+  padding: 2rem 1rem;
+  border-radius: 0 0 30px 30px;
+}
+
+.progress {
+  height: 40px;
+  padding: 10px;
+}
+
+.progress-bar {
+  background-color: #000000;
+}
+
+.card-header {
+  color: purple;
+  background: #fff;
+  border: 1px solid purple;
+}
+
+.card-body {
+  background-color: #ebebeb;
+}
+
+span{
+  font-size: 15px!important;
+}
+
+input{
+  font-size: 15px!important;
+  border: 1px solid purple!important;
+  background-color: #fff!important;
+}
+
+
+
+.btn-purple{
+  color: #fff;
+  background-color: purple;
+  border-color: purple;
+  font-size: 15px!important;
+}
+
+.tabRow{
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid;
+  border-color: #d8dadc;
+}

@@ -1,0 +1,49 @@
+<div class="card">
+    <div class="card-header" id="headingTwo">
+        <a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+            <h2>Register</h2>
+        </a>
+    </div>
+
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body" id="signup">
+            <form [formGroup]="form" (submit)="signin()">
+        
+              <div class="col-md-12">
+                  <h3>About you</h3>
+        
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">First name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" name="first_name" formControlName="first_name">
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="formGroupExampleInput2">Last name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" name="last_name" formControlName="last_name">
+                  </div>
+        
+              </div>
+        
+              <div class="col-md-12">
+                  <h3>Login informations</h3>
+        
+                  <div class="form-group">
+                    <label for="formGroupEmail">Email</label>
+                    <input type="email" class="form-control" id="formGroupEmail" name="email" formControlName="email">
+                  </div>
+        
+                  <div class="form-group">
+                    <label for="formGroupPassword">Password</label>
+                    <input type="password" class="form-control" id="formGroupPassword" formControlName="password">
+                  </div>
+              </div>
+        
+              <div class="btn">
+                <button type="submit" class="btn btn-lg btn-purple" [disabled]="!form.valid">Register</button>
+              </div>
+        
+            </form>
+            
+          </div>
+    </div>
+  </div>

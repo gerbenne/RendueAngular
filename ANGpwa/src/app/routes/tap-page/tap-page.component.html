@@ -1,0 +1,10 @@
+<ul class="list-group list-group-flush" *ngFor="let score of scores">
+  <li class="list-group-item">
+      <span class="col-6">
+        {{score.tap}} PTS
+      </span>
+      <span class="col-6">
+        {{score.user}}/ {{displayDate(score.date)}}
+      </span>
+    </li>
+  </ul>
