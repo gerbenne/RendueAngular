@@ -20,4 +20,4 @@ Lancer l'application grâce à un nouveau terminal dans le dossier ANGpwa avec l
 
 Enjoy :)
 
-Ps: Petit problème pour avoir les boutons pour rejouer où voir les scores sur la page du gros bouton mais il faut juste recharger la page pour les voir apparaître.
+Ps: Petit problème pour avoir les boutons pour rejouer où voir les scores sur la page du gros bouton, mais il faut seulement recharger la page pour les voir apparaître.
